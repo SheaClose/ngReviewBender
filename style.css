@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightgrey;
+}
+.nav {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  padding: 10px;
+  font-size: 2em;
+  color: darkblue;
+}
+.links {
+  cursor: pointer;
+}
+.height_90 {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_box_container {
+  width: 30vw;
+  height: 30vh;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px 1px lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.locate_brewery {
+  text-align: center;
+  font-size: 1.5em;
+}
+.ng-invalid {
+  box-shadow: 0px 0px 5px 2px red;
+  display: inline;
+  border-radius: 3px;
+}
+.brewery_container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.brew_card {
+  display: inline;
+  width: 30%;
+  height: 20vh;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2px solid black;
+}
